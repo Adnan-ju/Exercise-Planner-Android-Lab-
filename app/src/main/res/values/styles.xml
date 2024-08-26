@@ -1,0 +1,20 @@
+<resources>
+    <!-- Customize Spinner Style -->
+    <style name="CustomSpinner" parent="Widget.AppCompat.Spinner">
+        <item name="android:background">@drawable/spinner_background</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:elevation">16dp</item>
+    </style>
+
+    <!-- Customize Button Style -->
+    <style name="CustomButton" parent="Widget.AppCompat.Button">
+        <item name="android:backgroundTint">@color/buttonColor</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:elevation">8dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+</resources>

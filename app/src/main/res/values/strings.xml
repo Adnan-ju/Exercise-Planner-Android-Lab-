@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Exercise Planner</string>
+    <string name="show_exercises_button_text">Show Exercises</string>
+
+    <!-- Default TextView text -->
+    <string name="default_exercise_text">List of Exercise is shown here</string>
+    <!-- Spinner Categories -->
+    <string-array name="spinner_categories">
+        <item>Cardio</item>
+        <item>Strength</item>
+        <item>Flexibility</item>
+    </string-array>
+
+    <!-- Exercises for each category -->
+    <string-array name="cardio_exercises_array">
+        <item>Running</item>
+        <item>Cycling</item>
+        <item>Jumping Jacks</item>
+        <item>Burpees</item>
+    </string-array>
+
+    <string-array name="strength_exercises_array">
+        <item>Push-ups</item>
+        <item>Squats</item>
+        <item>Deadlifts</item>
+        <item>Bench Press</item>
+    </string-array>
+
+    <string-array name="flexibility_exercises_array">
+        <item>Yoga</item>
+        <item>Stretching</item>
+        <item>Pilates</item>
+        <item>Tai Chi</item>
+    </string-array>
+</resources>
