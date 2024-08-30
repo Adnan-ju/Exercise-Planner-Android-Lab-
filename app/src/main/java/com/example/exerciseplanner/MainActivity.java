@@ -56,9 +56,9 @@ public class MainActivity extends AppCompatActivity {
             exercises.append(i + 1).append(". ").append(exercisesArray[i]).append("\n");
         }
 
-        // Create an intent to start the ExerciseActivity
+
         Intent intent = new Intent(MainActivity.this, ExerciseActivity.class);
-        // Pass the exercises list to the second activity
+
         intent.putExtra("exercise_list", exercises.toString().trim());
         startActivity(intent);
     }
