@@ -2,16 +2,16 @@
     <string name="app_name">Exercise Planner</string>
     <string name="show_exercises_button_text">Show Exercises</string>
 
-    <!-- Default TextView text -->
+
     <string name="default_exercise_text">List of Exercise is shown here</string>
-    <!-- Spinner Categories -->
+
     <string-array name="spinner_categories">
         <item>Cardio</item>
         <item>Strength</item>
         <item>Flexibility</item>
     </string-array>
 
-    <!-- Exercises for each category -->
+
     <string-array name="cardio_exercises_array">
         <item>Running</item>
         <item>Cycling</item>
